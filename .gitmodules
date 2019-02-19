@@ -28,3 +28,6 @@
 [submodule "modules/github.com/robostac/coders-strike-back-referee.git"]
 	path = modules/github.com/robostac/coders-strike-back-referee.git
 	url = https://github.com/robostac/coders-strike-back-referee.git
+[submodule "modules/github.com/Manwe56/competitive-programming.git"]
+	path = modules/github.com/Manwe56/competitive-programming.git
+	url = https://github.com/Manwe56/competitive-programming.git
