@@ -1,0 +1,30 @@
+[submodule "modules/github.com/dreignier/cg-brutaltester.git"]
+	path = modules/github.com/dreignier/cg-brutaltester.git
+	url = https://github.com/dreignier/cg-brutaltester.git
+[submodule "modules/github.com/dreignier/game-ultimate-tictactoe.git"]
+	path = modules/github.com/dreignier/game-ultimate-tictactoe.git
+	url = https://github.com/dreignier/game-ultimate-tictactoe.git
+[submodule "modules/github.com/Coac/brutaltester-referee-coders-of-the-caribbean.git"]
+	path = modules/github.com/Coac/brutaltester-referee-coders-of-the-caribbean.git
+	url = https://github.com/Coac/brutaltester-referee-coders-of-the-caribbean.git
+[submodule "modules/github.com/dreignier/cg-referee-ghost-in-the-cell.git"]
+	path = modules/github.com/dreignier/cg-referee-ghost-in-the-cell.git
+	url = https://github.com/dreignier/cg-referee-ghost-in-the-cell.git
+[submodule "modules/github.com/eulerscheZahl/RefereeCollection.git"]
+	path = modules/github.com/eulerscheZahl/RefereeCollection.git
+	url = https://github.com/eulerscheZahl/RefereeCollection.git
+[submodule "modules/github.com/KevinBusse/cg-referee-code4life.git"]
+	path = modules/github.com/KevinBusse/cg-referee-code4life.git
+	url = https://github.com/KevinBusse/cg-referee-code4life.git
+[submodule "modules/github.com/KevinBusse/cg-referee-coders-of-the-caribbean.git"]
+	path = modules/github.com/KevinBusse/cg-referee-coders-of-the-caribbean.git
+	url = https://github.com/KevinBusse/cg-referee-coders-of-the-caribbean.git
+[submodule "modules/github.com/KevinBusse/cg-referee-mean-max.git"]
+	path = modules/github.com/KevinBusse/cg-referee-mean-max.git
+	url = https://github.com/KevinBusse/cg-referee-mean-max.git
+[submodule "modules/github.com/KevinBusse/cg-referee-wondev-woman.git"]
+	path = modules/github.com/KevinBusse/cg-referee-wondev-woman.git
+	url = https://github.com/KevinBusse/cg-referee-wondev-woman.git
+[submodule "modules/github.com/robostac/coders-strike-back-referee.git"]
+	path = modules/github.com/robostac/coders-strike-back-referee.git
+	url = https://github.com/robostac/coders-strike-back-referee.git
