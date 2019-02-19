@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)/..
+ROOTDIR="$(pwd)"
+
+if [[ ! -d build ]]; then
+	mkdir build
+fi
+
+if [[ ! -d logs ]]; then
+	mkdir logs
+fi
+
+if [[ ! -f build/cg-referee-ghost-in-the-cell.jar ]]; then
+	cd modules/github.com/dreignier/cg-referee-ghost-in-the-cell.git
+	cd src
+	rm -rf *.class manifest
+	javac *.java
+	echo "Manifest-Version: 1.0" > manifest
+	echo "Main-Class: Referee" >> manifest
+	jar -cmf manifest ../../../../../build/cg-referee-ghost-in-the-cell.jar *.class
+	rm -rf *.class manifest
+	cd ../../../../..
+fi
+
+cd "${ROOTDIR}"
+scripts/cg-brutaltester -r "java -jar build/cg-referee-ghost-in-the-cell.jar" -o "$@"

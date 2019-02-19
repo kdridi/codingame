@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)/..
+ROOTDIR="$(pwd)"
+
+if [[ ! -d build ]]; then
+	mkdir build
+fi
+
+if [[ ! -d logs ]]; then
+	mkdir logs
+fi
+
+if [[ ! -f build/cg-brutaltester.jar ]]; then
+	cd modules/github.com/dreignier/cg-brutaltester.git
+	mvn package
+	cp target/cg-brutaltester-1.0.0-SNAPSHOT.jar ../../../../build/cg-brutaltester.jar
+	cd ../../../..
+fi
+
+java -jar build/cg-brutaltester.jar -l "${ROOTDIR}/logs/" "$@"
